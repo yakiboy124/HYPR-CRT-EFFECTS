@@ -38,7 +38,7 @@ hyprpm reload -n
 ```
 
 ### Step 2: Window Open/Close CRT Effects
-[Watch CRT Apps Toggle Demo](preview/preview-apps-crt-toggle.mp4)
+https://github.com/user-attachments/assets/4b0f7387-29f0-4d21-bbea-1546f8466906
 1. Copy `crt_open.glsl` and `crt_close.glsl` to `~/.config/hypr/shaders/`.
 2. Copy or merge `hypr-user.lua` into `~/.config/hypr/hypr-user.lua` (using `os.getenv("HOME")` or `$HOME` instead of hardcoded user paths).
 3. If you do not use a separate wake listener script, remove or comment out any `hl.exec_cmd(...crt-wake-listener.sh...)` line unless you have that script in place.
