@@ -9,13 +9,13 @@ CRT collapse/expand shaders for window open/close and DPMS screen power-off/wake
 
 ---
 
-## Preview
+## Preview:
 
 https://github.com/user-attachments/assets/fdc237ba-9059-4da5-b4fd-a565a30148ab
 
 ---
 
-## Requirements
+## Requirements:
 
 - **Hyprland** (with `hyprpm` plugin manager installed)
 - **HyprWindowShade** (`ManofJELLO/HyprWindowShade`) — **required** for `+shader_open:` and `+shader_close:` per-window shader tags
@@ -23,11 +23,11 @@ https://github.com/user-attachments/assets/fdc237ba-9059-4da5-b4fd-a565a30148ab
 
 ---
 
-## ⚠️READ THE WARNING/PRECAUTION BELOW BEFORE STARTING⚠️
+##   ⚠️ READ THE WARNING/PRECAUTION BELOW BEFORE STARTING ⚠️
 
-## Installation
+## Installation:
 
-### Step 1: Install HyprWindowShade
+### Step 1: Install HyprWindowShade:
 Install and enable the plugin via `hyprpm`:
 
 ```bash
@@ -43,7 +43,6 @@ hyprpm reload -n
 https://github.com/user-attachments/assets/d49dc32c-1c9e-4161-b366-d3367c45c384
 1. Copy `crt_open.glsl` and `crt_close.glsl` to `~/.config/hypr/shaders/`.
 2. Copy or merge `hypr-user.lua` into `~/.config/hypr/hypr-user.lua` (using `os.getenv("HOME")` or `$HOME` instead of hardcoded user paths).
-3. If you do not use a separate wake listener script, remove or comment out any `hl.exec_cmd(...crt-wake-listener.sh...)` line unless you have that script in place.
 
 ### Step 3: Screen Power Off/Wake CRT Effect (Separate Module)
 https://github.com/user-attachments/assets/b4671386-abdc-422f-9e0c-3cfef786d22a
@@ -54,9 +53,23 @@ https://github.com/user-attachments/assets/b4671386-abdc-422f-9e0c-3cfef786d22a
 ```bash
 chmod +x ~/.config/hypr/scripts/crt-dpms.sh
 ```
+4. Open terminal and type `hyprpm enable HyprWindowShade`
+5. It should work fine now. But if you dont want to type this everytime you log in, you can set auto startup at login. Go to `~/.config/caelestia/hypr-user.lua` and add:
+```bash
+hl.on("hyprland.start", function()
+    hl.exec_cmd("hyprpm reload -n")
+end)
 
-### NOTE: I have set the keybinds to SUPER + SHIFT + P. You can change that in .config/caelestia/hypr-user.lua
-(~/.config/hypr/hyprland.conf or similar if you dont use caelestia)
+```
+If dont use caelestia, add the below to ~/.config/hypr/hyprland.conf
+```bash
+exec-once = hyprpm reload -n
+```
+
+
+### NOTE: I have set the keybinds to SUPER + SHIFT + P. You can change that in:
+`~/.config/caelestia/hypr-user.lua`.
+`(~/.config/hypr/hyprland.conf or similar if you dont use caelestia)`
 
 ---
 
