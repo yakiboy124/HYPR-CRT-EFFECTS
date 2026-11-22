@@ -11,7 +11,7 @@ CRT collapse/expand shaders for window open/close and DPMS screen power-off/wake
 
 ## Preview
 
-![CRT screen toggle preview](preview/previewscreencrttoggle.gif)
+https://github.com/yakiboy124/HYPR-CRT-EFFECTS/issues/3#issue-6540762551
 
 ---
 
