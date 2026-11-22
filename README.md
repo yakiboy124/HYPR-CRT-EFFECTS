@@ -48,12 +48,13 @@ https://github.com/user-attachments/assets/4b0f7387-29f0-4d21-bbea-1546f8466906
 1. Copy `screen_crt.glsl` to `~/.config/hypr/shaders/`.
 2. Copy `crt-dpms.sh` to `~/.config/hypr/scripts/` (using `"$HOME"` instead of a hardcoded home folder path).
 3. Make the script executable:
-4. I have set the keybinds to SUPER + SHIFT + P. You can change that in .config/caelestia/hypr-user.lua
-(~/.config/hypr/hyprland.conf or similar if you dont use caelestia)
 
 ```bash
 chmod +x ~/.config/hypr/scripts/crt-dpms.sh
 ```
+
+### I have set the keybinds to SUPER + SHIFT + P. You can change that in .config/caelestia/hypr-user.lua
+(~/.config/hypr/hyprland.conf or similar if you dont use caelestia)
 
 ---
 
