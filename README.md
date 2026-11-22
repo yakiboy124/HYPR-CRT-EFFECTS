@@ -9,8 +9,7 @@ CRT collapse/expand shaders for window open/close and DPMS screen power-off/wake
 
 ---
 
-preview: crt screen toggle
-<img width="800" height="450" alt="previewscreencrttoggle" src="https://github.com/user-attachments/assets/2cd661cc-bac0-41c2-b460-9b5e558064d3" />
+preview:
 
 ---
 
