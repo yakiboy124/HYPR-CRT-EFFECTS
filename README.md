@@ -23,6 +23,8 @@ https://github.com/user-attachments/assets/fdc237ba-9059-4da5-b4fd-a565a30148ab
 
 ---
 
+## ⚠️READ THE WARNING/PRECAUTION BELOW BEFORE STARTING⚠️
+
 ## Installation
 
 ### Step 1: Install HyprWindowShade
@@ -53,7 +55,7 @@ https://github.com/user-attachments/assets/4b0f7387-29f0-4d21-bbea-1546f8466906
 chmod +x ~/.config/hypr/scripts/crt-dpms.sh
 ```
 
-### I have set the keybinds to SUPER + SHIFT + P. You can change that in .config/caelestia/hypr-user.lua
+### NOTE: I have set the keybinds to SUPER + SHIFT + P. You can change that in .config/caelestia/hypr-user.lua
 (~/.config/hypr/hyprland.conf or similar if you dont use caelestia)
 
 ---
