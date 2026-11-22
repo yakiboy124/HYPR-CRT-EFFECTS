@@ -27,3 +27,5 @@ hyprpm update
 hyprpm add [https://github.com/ManofJELLO/HyprWindowShade](https://github.com/ManofJELLO/HyprWindowShade)
 hyprpm enable HyprWindowShade
 hyprpm reload -n
+
+(Whenever Hyprland updates, run hyprpm update so the plugin stays compatible with your Hyprland build.)
