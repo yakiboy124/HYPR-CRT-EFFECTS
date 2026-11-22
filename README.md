@@ -38,13 +38,13 @@ hyprpm reload -n
 ```
 
 ### Step 2: Window Open/Close CRT Effects
-![CRT screen toggle preview](preview/preview app crt toggle.mp4)
+[Watch CRT Window & DPMS Demo](preview/preview app crt toggle.mp4)
 1. Copy `crt_open.glsl` and `crt_close.glsl` to `~/.config/hypr/shaders/`.
 2. Copy or merge `hypr-user.lua` into `~/.config/hypr/hypr-user.lua` (using `os.getenv("HOME")` or `$HOME` instead of hardcoded user paths).
 3. If you do not use a separate wake listener script, remove or comment out any `hl.exec_cmd(...crt-wake-listener.sh...)` line unless you have that script in place.
 
 ### Step 3: Screen Power Off/Wake CRT Effect (Separate Module)
-![CRT screen toggle preview](preview/preview screen crt toggle.mp4)
+[Watch CRT Window & DPMS Demo](preview/preview screen crt toggle.mp4)
 1. Copy `screen_crt.glsl` to `~/.config/hypr/shaders/`.
 2. Copy `crt-dpms.sh` to `~/.config/hypr/scripts/` (using `"$HOME"` instead of a hardcoded home folder path).
 3. Make the script executable:
