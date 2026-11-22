@@ -46,7 +46,7 @@ https://github.com/user-attachments/assets/d49dc32c-1c9e-4161-b366-d3367c45c384
 3. If you do not use a separate wake listener script, remove or comment out any `hl.exec_cmd(...crt-wake-listener.sh...)` line unless you have that script in place.
 
 ### Step 3: Screen Power Off/Wake CRT Effect (Separate Module)
-https://github.com/user-attachments/assets/4b0f7387-29f0-4d21-bbea-1546f8466906
+https://github.com/user-attachments/assets/b4671386-abdc-422f-9e0c-3cfef786d22a
 1. Copy `screen_crt.glsl` to `~/.config/hypr/shaders/`.
 2. Copy `crt-dpms.sh` to `~/.config/hypr/scripts/` (using `"$HOME"` instead of a hardcoded home folder path).
 3. Make the script executable:
