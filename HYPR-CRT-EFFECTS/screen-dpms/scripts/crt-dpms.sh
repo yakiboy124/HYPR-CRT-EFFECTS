@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-TEMPLATE="/home/yakie/.config/hypr/shaders/screen_crt.glsl"
+TEMPLATE="$HOME/.config/hypr/shaders/screen_crt.glsl"
 TMP_SHADER="/tmp/crt_active.glsl"
 LOCK_FILE="/tmp/crt_anim.lock"
 
